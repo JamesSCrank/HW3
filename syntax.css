@@ -1,9 +1,19 @@
 .Main{
     background-color: grey;
     border-style: solid;
-    width: 150px;
+    width: 125px;
     padding: 10px;
     margin: 0; 
+    text-align: center;
+}
+
+.Display{
+    background-color:aqua;
+    width: 100px;
+    padding: 0px;
+    margin: 0;
+    display: grid; 
+    grid-template-columns: 25%;
 }
 
 .Numero{

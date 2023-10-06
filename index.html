@@ -4,30 +4,34 @@
 <link rel="stylesheet" type="text/css" href="syntax.css">
 
 <body>
+  
  <div class="Main">
+  
+    <input class="Display" type="text">
     <div>
-    <button class="Numero">7</button>
-    <button class="Numero">8</button>
-    <button class="Numero">9</button>
-    <button class="Symbol">+</button>
+    <button Onclick="DisplayNumber(event)" class="Numero">7</button>
+    <button Onclick="DisplayNumber(event)" class="Numero">8</button>
+    <button Onclick="DisplayNumber(event)" class="Numero">9</button>
+    <button Onclick="DisplayNumber(event)" class="Symbol">+</button>
     </div>
     <div>
-    <button class="Numero">4</button>
-    <button class="Numero">5</button>
-    <button class="Numero">6</button>
-    <button class="Symbol">-</button>
+    <button Onclick="DisplayNumber(event)" class="Numero">4</button>
+    <button Onclick="DisplayNumber(event)" class="Numero">5</button>
+    <button Onclick="DisplayNumber(event)" class="Numero">6</button>
+    <button Onclick="DisplaySymbol(event)" class="Symbol">-</button>
     </div>
     <div>
-    <button class="Numero">1</button>
-    <button class="Numero">2</button>
-    <button class="Numero">3</button>
-    <button class="Symbol">x</button>
+    <button Onclick="DisplayNumber(event)" class="Numero">1</button>
+    <button Onclick="DisplayNumber(event)" class="Numero">2</button>
+    <button Onclick="DisplayNumber(event)" class="Numero">3</button>
+    <button Onclick="DisplaySymbol(event)" class="Symbol">x</button>
     </div>
     <button class="Clear">C</button>
     <button class="Numero">0</button>
-    <button class="Symbol">=</button>
-    <button class="Symbol">÷</button>
+    <button Onclick="Calculate(event)" class="Intiate">=</button>
+    <button Onclick="DisplayNumber(event)" class="Symbol">÷</button>
   </div>
+  </script>
 </body>
 
 </html>
